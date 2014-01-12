@@ -1,0 +1,3 @@
+class weechat::params {
+
+}
