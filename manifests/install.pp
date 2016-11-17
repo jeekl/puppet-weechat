@@ -5,7 +5,7 @@ class weechat::install inherits weechat {
       owner     => root,
       group     => root,
       content   => "APT::Get::AllowUnauthenticated yes;",
-      mode      => 644,
+      mode      => '0644',
     }
 
     apt::source { 'weechat':
